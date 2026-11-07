@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Aldi Nur Akbar</title>
+
+    <style>
+        /* RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5F3FF;
+            color: #334155;
+            padding: 20px;
+        }
+
+        /* CONTAINER */
+        .container {
+            width: 800px;
+            max-width: 100%;
+            margin: auto;
+            padding: 10px;
+            background-color: white;
+            border: 2px solid #9B83FB;
+            border-radius: 10px;
+        }
+
+        /* HEADER */
+        .header {
+            background-color: #312E81;
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+            border-radius: 8px;
+        }
+
+        .header h1 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 14px;
+        }
+
+        /* NAVIGASI */
+        .menu {
+            background-color: #1E40AF;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        .menu a:hover {
+            color: #C4B5FD;
+        }
+
+        /* KONTEN KONTAK */
+        .kontak {
+            padding: 20px;
+            margin-top: 10px;
+            border: 1px solid #C4B5FD;
+            border-radius: 8px;
+        }
+
+        .kontak h2 {
+            color: #312E81;
+            font-size: 20px;
+            border-bottom: 2px solid #DDD6FE;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        .kontak p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        /* KARTU KONTAK */
+        .kontak-item {
+            background-color: #F5F3FF;
+            border-left: 4px solid #6366F1;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+        }
+
+        .kontak-item h3 {
+            color: #4C1D95;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .kontak-item a {
+            color: #1D4ED8;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .kontak-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* FOOTER */
+        .footer {
+            background-color: #312E81;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 10px;
+            border-radius: 6px;
+            font-size: 12px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .header h1 {
+                font-size: 21px;
+            }
+
+            .menu a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .kontak {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HEADER -->
+        <header class="header">
+            <h1>HUBUNGI SAYA</h1>
+            <p>Halaman Kontak Aldi Nur Akbar</p>
+        </header>
+
+        <!-- NAVIGASI -->
+        <nav class="menu">
+            <a href="index.html">HOME</a>
+            
+        </nav>
+
+        <!-- KONTEN -->
+        <main>
+
+            <section class="kontak">
+
+                <h2>Hubungi Saya</h2>
+
+                <p>
+                    Jika ingin mengenal saya lebih lanjut,
+                    silakan hubungi melalui kontak berikut.
+                </p>
+
+                <!-- EMAIL -->
+                <div class="kontak-item">
+                    <h3>Email</h3>
+                    <p>
+                        <a href="mailto:aldi123@gmail.com">
+                            aldi123@gmail.com
+                        </a>
+                    </p>
+                </div>
+
+                <!-- WHATSAPP -->
+                <div class="kontak-item">
+                    <h3>WhatsApp</h3>
+                    <p>
+                        <a href="https://wa.me/6289673420967"
+                           target="_blank">
+                            089673420967
+                        </a>
+                    </p>
+                </div>
+
+                <!-- ALAMAT -->
+                <div class="kontak-item">
+                    <h3>Alamat</h3>
+                    <p>
+                        Dusun Gang Kalapa, Desa Ancaran,
+                        Kabupaten Kuningan, Jawa Barat.
+                    </p>
+                </div>
+
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p>&copy; 2026 Aldi Nur Akbar | My Personal Website</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
